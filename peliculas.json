@@ -2,9 +2,44 @@
     {
         "P1": {
             "id": "P1",
-            "nombre": "SADSA",
-            "duracion": "asdsa",
-            "sinopsis": "asdsa",
+            "nombre": "AAAA",
+            "duracion": "asdas",
+            "sinopsis": "asdas",
+            "generos": [
+                {
+                    "G2": {
+                        "id": "G2",
+                        "nombre": "DRAMA"
+                    }
+                }
+            ],
+            "actores": [
+                {
+                    "A2": {
+                        "id": "A2",
+                        "nombre": "MATEO SANCHEZ",
+                        "rol": "ASDSA"
+                    }
+                }
+            ],
+            "formato": [
+                {
+                    "F1": {
+                        "id": "F1",
+                        "nombre": "DVD",
+                        "nroCopias": 4353,
+                        "valorPrestamo": 3453
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "P2": {
+            "id": "P2",
+            "nombre": "FGH",
+            "duracion": "asd",
+            "sinopsis": "asd",
             "generos": [
                 {
                     "G1": {
@@ -18,14 +53,7 @@
                     "A1": {
                         "id": "A1",
                         "nombre": "JUAN RIVAS",
-                        "rol": "PROTAGONISTA"
-                    }
-                },
-                {
-                    "A2": {
-                        "id": "A2",
-                        "nombre": "MATEO SANCHEZ",
-                        "rol": "REPARTO"
+                        "rol": "DF"
                     }
                 }
             ],
@@ -34,16 +62,8 @@
                     "F1": {
                         "id": "F1",
                         "nombre": "DVD",
-                        "nroCopias": 3,
-                        "valorPrestamo": 234234
-                    }
-                },
-                {
-                    "F2": {
-                        "id": "F2",
-                        "nombre": "USB",
-                        "nroCopias": 34,
-                        "valorPrestamo": 5675
+                        "nroCopias": 5435,
+                        "valorPrestamo": 3453
                     }
                 }
             ]

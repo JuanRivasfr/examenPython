@@ -32,8 +32,6 @@ def agregarPelicula(paux = None):
                 if gen == valu["id"]:
                     infg = value
                     auxg.append(infg)
-                    print(infg)
-                    os.system('pause')
         s = input("Desea agregar otro genero a la pelicula?(S/N): ").upper()
         if s == "S":
             asignarGeneros()
@@ -51,12 +49,8 @@ def agregarPelicula(paux = None):
             for i1,valu in value.items():
                 if gen == valu["id"]:
                     valu["rol"] = input("Ingrese el rol que cumple el actor en la pelicula(Protagonista/Antagonista/Reparto): ").upper()
-                    print(valu)
-                    os.system('pause')
                     infa = value
                     auxa.append(infa)
-                    print(infa)
-                    os.system('pause')
         s = input("Desea agregar otro actor a la pelicula?(S/N): ").upper()
         if s == "S":
             asignarActor()
@@ -77,8 +71,6 @@ def agregarPelicula(paux = None):
                     valu["valorPrestamo"] = int(input("Ingrese el valor del prestamo de la pelicula: "))
                     inff = value
                     auxf.append(inff)
-                    print(inff)
-                    os.system('pause')
         s = input("Desea agregar otro formato a la pelicula?(S/N): ").upper()
         if s == "S":
             asignarFormato()
@@ -115,7 +107,6 @@ def agregarPelicula(paux = None):
             }
         }
         return inf
-         A
 
 def actualizarPelicula():
     
@@ -125,10 +116,13 @@ def actualizarPelicula():
     id = input("Ingrese el id de la pelicula a actualizar: ").upper()
     for i, value in enumerate(pelicula):
         for i2,val in value.items():
-        if id == value:
-            pelicula[i] = agregarPelicula(id)
-            print("La pelicula se ha actualizado")
-            os.system('pause')
+            if id == val["id"]:
+                pelicula[i] = agregarPelicula(id)
+                savejson(pelicula)
+                print("La pelicula se ha actualizado")
+                os.system('pause')
+                return
     print("No hay ninguna pelicula con ese id")
     os.system('pause')
     return
+
