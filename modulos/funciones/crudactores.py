@@ -39,3 +39,16 @@ def listarActores():
             print(f'Id: {valu["id"]} \nNombre: {valu["nombre"]}')    
         print("-----------------------")
     os.system('pause')
+
+def eliminarActor():
+    with open('actores.json', 'r') as json_file:
+        actores = json.load(json_file)
+        
+    id = input("Ingrese el id del actor a eliminar: ").upper()
+    for i, value in enumerate(actores):
+        for i2, val in value.items():
+            if id == val["id"]:
+                actores.pop(i)
+                savejson(actores)
+                print("Se ha eliminado el actor")
+                os.system('pause')

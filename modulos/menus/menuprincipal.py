@@ -1,9 +1,9 @@
 import os
 
 from ..funciones.crudgeneros import crearGenero,listarGenero
-from ..funciones.crudactores import crearActor,listarActores
+from ..funciones.crudactores import crearActor,listarActores, eliminarActor
 from ..funciones.crudformatos import crearFormato,listarFormato
-from ..funciones.crudpeliculas import agregarPelicula, actualizarPelicula
+from ..funciones.crudpeliculas import agregarPelicula, actualizarPelicula,eliminarPelicula, verPelicula, verTPelicula
 
 def menuPrincipal():
     try:
@@ -47,13 +47,21 @@ def menuPrincipal():
                 case 5:
                     while True:
                         os.system('cls')
-                        opca = int(input("1.Agregar pelicula \n2.Actualizar pelicula \n3.Volver \n:"))
+                        opca = int(input("1.Agregar pelicula \n2.Actualizar pelicula \n3.Eliminar pelicula \n4.Eliminar actor \n5.Buscar pelicula \n6.Ver todas las peliculas \n7.Volver \n:"))
                         match(opca):
                             case 1:
                                 agregarPelicula()
                             case 2:
                                 actualizarPelicula()
                             case 3:
+                                eliminarPelicula()
+                            case 4:
+                                eliminarActor()
+                            case 5:
+                                verPelicula()
+                            case 6:
+                                verTPelicula()
+                            case 7:
                                 break
                 case 6:
                     break

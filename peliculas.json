@@ -37,23 +37,23 @@
     {
         "P2": {
             "id": "P2",
-            "nombre": "FGH",
-            "duracion": "asd",
-            "sinopsis": "asd",
+            "nombre": "AAAA",
+            "duracion": "asdas",
+            "sinopsis": "asdas",
             "generos": [
                 {
-                    "G1": {
-                        "id": "G1",
-                        "nombre": "ACCION"
+                    "G2": {
+                        "id": "G2",
+                        "nombre": "DRAMA"
                     }
                 }
             ],
             "actores": [
                 {
-                    "A1": {
-                        "id": "A1",
-                        "nombre": "JUAN RIVAS",
-                        "rol": "DF"
+                    "A2": {
+                        "id": "A2",
+                        "nombre": "MATEO SANCHEZ",
+                        "rol": "ASDSA"
                     }
                 }
             ],
@@ -62,7 +62,7 @@
                     "F1": {
                         "id": "F1",
                         "nombre": "DVD",
-                        "nroCopias": 5435,
+                        "nroCopias": 4353,
                         "valorPrestamo": 3453
                     }
                 }

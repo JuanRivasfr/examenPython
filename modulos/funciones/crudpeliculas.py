@@ -126,3 +126,42 @@ def actualizarPelicula():
     os.system('pause')
     return
 
+def eliminarPelicula():
+    
+    with open('peliculas.json', 'r') as json_file:
+        pelicula = json.load(json_file)
+        
+    id = input("Ingrese el id de la pelicula a eliminar: ").upper()
+    for i, value in enumerate(pelicula):
+        for i2, val in value.items():
+            if id == val["id"]:
+                pelicula.pop(i)
+                savejson(pelicula)
+                print("Se ha eliminado la pelicula")
+                os.system('pause')
+                
+def verPelicula():
+    
+    with open('peliculas.json', 'r') as json_file:
+        pelicula = json.load(json_file)
+
+    id = input("Ingrese el id de la pelicula a buscar: ").upper()
+    for i, value in enumerate(pelicula):
+        for i2, val in value.items():
+            if id == val["id"]:
+                print("-----------------")
+                print(f'ID: {val["id"]} \nNombre: {val["nombre"]} \nDuracion: {val["duracion"]} \nSinopsis {val["sinopsis"]}')
+                print("-----------------")
+                os.system('pause')
+                
+def verTPelicula():
+    
+    with open('peliculas.json', 'r') as json_file:
+        pelicula = json.load(json_file)
+
+    for i, value in enumerate(pelicula):
+        for i2, val in value.items():
+                print("-----------------")
+                print(f'ID: {val["id"]} \nNombre: {val["nombre"]} \nDuracion: {val["duracion"]} \nSinopsis {val["sinopsis"]}')
+                print("-----------------")
+    os.system('pause')
