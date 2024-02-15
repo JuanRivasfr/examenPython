@@ -1,0 +1,7 @@
+for i, value in enumerate(pelicula):
+            for i1, valu in value.items():
+                for i2, val in enumerate(valu["generos"]):
+                    for i3, va in val.items():
+                        for i4, v in va.items():
+                            print(pelicula[i][valu]["generos"][i2][va][v]["id"])
+                            os.system('pause')
