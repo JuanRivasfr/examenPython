@@ -4,4 +4,4 @@ for i, value in enumerate(pelicula):
                     for i3, va in val.items():
                         for i4, v in va.items():
                             print(pelicula[i][valu]["generos"][i2][va][v]["id"])
-                            os.system('pause') sada sad
+                            os.system('pause') sada sad  adad
