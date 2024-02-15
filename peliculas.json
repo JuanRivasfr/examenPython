@@ -17,8 +17,8 @@
                 {
                     "A2": {
                         "id": "A2",
-                        "nombre": "MATEO SANCHEZ",
-                        "rol": "ASDSA"
+                        "nombre": "SILVESTER STALLONE",
+                        "rol": "PROTAGONISTA"
                     }
                 }
             ],
@@ -37,14 +37,14 @@
     {
         "P2": {
             "id": "P2",
-            "nombre": "AAAA",
+            "nombre": "BBBB",
             "duracion": "asdas",
             "sinopsis": "asdas",
             "generos": [
                 {
                     "G2": {
                         "id": "G2",
-                        "nombre": "DRAMA"
+                        "nombre": "TERROR"
                     }
                 }
             ],
@@ -52,8 +52,15 @@
                 {
                     "A2": {
                         "id": "A2",
-                        "nombre": "MATEO SANCHEZ",
-                        "rol": "ASDSA"
+                        "nombre": "SILVESTER STALLONE",
+                        "rol": "PROTAGONISTA"
+                    }
+                },
+                {
+                    "A2": {
+                        "id": "A2",
+                        "nombre": "asdasd",
+                        "rol": "PROTAGONISTA"
                     }
                 }
             ],

@@ -4,6 +4,7 @@ from ..funciones.crudgeneros import crearGenero,listarGenero
 from ..funciones.crudactores import crearActor,listarActores, eliminarActor
 from ..funciones.crudformatos import crearFormato,listarFormato
 from ..funciones.crudpeliculas import agregarPelicula, actualizarPelicula,eliminarPelicula, verPelicula, verTPelicula
+from ..funciones.gestor import listarporgenero, listarsilvestre, bymostrar
 
 def menuPrincipal():
     try:
@@ -43,6 +44,19 @@ def menuPrincipal():
                             case 2:
                                 listarFormato()
                             case 3:
+                                break
+                case 4:
+                    while True:
+                        os.system('cls')
+                        opca = int(input("1.Consultar peliculas por genero \n2.Listar Silvester \n3.Buscar y mostrar actores, sinopsis \n4.Volver \n:"))
+                        match(opca):
+                            case 1:
+                                listarporgenero()
+                            case 2:
+                                listarsilvestre()
+                            case 3:
+                                bymostrar()
+                            case 4:
                                 break
                 case 5:
                     while True:
