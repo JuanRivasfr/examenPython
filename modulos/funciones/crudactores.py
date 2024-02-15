@@ -28,6 +28,8 @@ def crearActor():
     
     actores.append(inf)
     savejson(actores)
+    print("El actor ha sido creado")
+    os.system('pause')
 #Listar generos
 def listarActores():
     with open('actores.json', 'r') as json_file:

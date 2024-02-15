@@ -2,13 +2,13 @@
     {
         "P1": {
             "id": "P1",
-            "nombre": "AAAA",
-            "duracion": "asdas",
-            "sinopsis": "asdas",
+            "nombre": "ASD",
+            "duracion": "ASDSA",
+            "sinopsis": "ASDAS",
             "generos": [
                 {
-                    "G2": {
-                        "id": "G2",
+                    "G1": {
+                        "id": "G1",
                         "nombre": "DRAMA"
                     }
                 }
@@ -24,11 +24,11 @@
             ],
             "formato": [
                 {
-                    "F1": {
-                        "id": "F1",
-                        "nombre": "DVD",
-                        "nroCopias": 4353,
-                        "valorPrestamo": 3453
+                    "F2": {
+                        "id": "F2",
+                        "nombre": "USB",
+                        "nroCopias": 12321,
+                        "valorPrestamo": 123123
                     }
                 }
             ]
@@ -37,10 +37,16 @@
     {
         "P2": {
             "id": "P2",
-            "nombre": "BBBB",
-            "duracion": "asdas",
-            "sinopsis": "asdas",
+            "nombre": "DSFSD",
+            "duracion": "SDFSD",
+            "sinopsis": "DSFS",
             "generos": [
+                {
+                    "G1": {
+                        "id": "G1",
+                        "nombre": "DRAMA"
+                    }
+                },
                 {
                     "G2": {
                         "id": "G2",
@@ -50,17 +56,17 @@
             ],
             "actores": [
                 {
-                    "A2": {
-                        "id": "A2",
-                        "nombre": "SILVESTER STALLONE",
+                    "A1": {
+                        "id": "A1",
+                        "nombre": "JUAN RIVAS",
                         "rol": "PROTAGONISTA"
                     }
                 },
                 {
                     "A2": {
                         "id": "A2",
-                        "nombre": "asdasd",
-                        "rol": "PROTAGONISTA"
+                        "nombre": "SILVESTER STALLONE",
+                        "rol": "REPARTO"
                     }
                 }
             ],
@@ -69,8 +75,8 @@
                     "F1": {
                         "id": "F1",
                         "nombre": "DVD",
-                        "nroCopias": 4353,
-                        "valorPrestamo": 3453
+                        "nroCopias": 32432,
+                        "valorPrestamo": 23432
                     }
                 }
             ]

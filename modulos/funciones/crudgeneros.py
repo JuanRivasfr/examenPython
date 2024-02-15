@@ -28,6 +28,8 @@ def crearGenero():
     
     generos.append(inf)
     savejson(generos)
+    print("El genero fue creado")
+    os.system('pause')
 #Listar generos
 def listarGenero():
     with open('generos.json', 'r') as json_file:

@@ -82,3 +82,4 @@ def menuPrincipal():
     except ValueError:
         print("Ingrese una opcion valida")
         os.system('pause')
+        menuPrincipal()
