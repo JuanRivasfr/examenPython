@@ -1,0 +1,14 @@
+[
+    {
+        "G1": {
+            "id": "G1",
+            "nombre": "ACCION"
+        }
+    },
+    {
+        "G2": {
+            "id": "G2",
+            "nombre": "DRAMA"
+        }
+    }
+]
